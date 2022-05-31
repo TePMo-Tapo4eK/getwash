@@ -1,0 +1,60 @@
+.appinfo{
+    margin-top: 180px;
+    height: 450px;
+    padding: 0 135px;
+    overflow: hidden;
+    max-width: 1500px;
+    margin: 180px auto 0;
+}
+.info_blue{
+    padding: 50px 70px;
+    height: 370px;
+    border-radius: 20px;
+    background-color: #446DF6;
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+}
+.iphoneimg{
+    display: block;
+    position: relative;
+    top: 100px;
+}
+.info-text{
+    max-width: 50%;
+}
+.info-text h1{
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    margin-bottom: 15px;
+}
+.info-text p{
+    color: #E9ECF5;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.info-apps img{
+    margin-right: 20px;
+    border-radius: 3px
+}
+.info-photos{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    position: absolute;
+}
+.info-photos img{
+    position: relative;
+    top: -34px;
+    bottom: 50px;
+    left: 30%;
+}
+.info-photos img:first-child{
+    position: relative;
+    left: 75%;
+    z-index: 2;
+}

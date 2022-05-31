@@ -1,0 +1,33 @@
+.header{
+    height: 100px;
+    width: 100%;
+    padding: 0 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+}
+.header ul{
+    display: flex;
+    font-size: 18px;
+}
+.header li{
+    margin-right: 50px;
+    font-weight: 200;
+}
+.header li:last-child{
+    margin-right: 0px;
+}
+.header .btn{
+    color: #446DF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    height: 50px;
+    border: 2px solid #E9ECF5;
+    border-radius: 6px;
+    font-size: 16px;
+}

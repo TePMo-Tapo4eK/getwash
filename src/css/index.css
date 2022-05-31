@@ -1,0 +1,10 @@
+@import url(./invis.css);
+@font-face {
+    font-family: 'GT Eesti Pro';
+    src: url('../fonts/GTEestiProDisplay-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    font-family: 'GT Eesti Pro';
+}

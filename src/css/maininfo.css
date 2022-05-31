@@ -1,0 +1,39 @@
+.main-info{
+    max-width: 1500px;
+    padding: 100px 135px 0;
+    display: flex;
+    align-items: center;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/Transaction\ History\ 10.svg);
+}
+.main-leftinfo h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.main-leftinfo p{
+    font-size: 24px;
+    font-weight: 100;
+    color: #72727E;
+    padding-bottom: 60px;
+}
+.main-leftinfo .btn{
+    height: 60px;
+    width: fit-content;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #446DF6;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.main-leftinfo img{
+    margin-top: 15px;
+}
+.main-photo img{
+    max-width: 600px;
+}
+
