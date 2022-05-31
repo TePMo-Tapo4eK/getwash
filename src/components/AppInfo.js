@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/appinfo.css";
-import AppStore from "../imgs/appstore.png";
-import PlayMarket from "../imgs/gpservice.png";
+import AppStore from "../imgs/appstore.svg";
+import PlayMarket from "../imgs/gpservice.svg";
 import iph12 from "../imgs/../imgs/iph12.png";
 import iph12oc from "../imgs/../imgs/iph12oc.png";
 
