@@ -9,6 +9,14 @@
     background-color: white;
     z-index: 999;
 }
+.burger-main{
+    display: none;
+}
+.burger svg{
+    display: none;
+    width: 0px;
+    height: 0px;
+}
 .header ul{
     display: flex;
     font-size: 18px;
@@ -30,4 +38,32 @@
     border: 2px solid #E9ECF5;
     border-radius: 6px;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1250px) {
+    .header{
+        height: 60px;
+        padding: 0 20px;
+        border-bottom: 1px solid #E9ECF5;
+    }
+    .header ul{
+        display: none;
+    }
+    .header .btn{
+        display: none;
+    }
+    .burger-main{
+        height: 100%;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid #E9ECF5;
+    }
+    .burger {
+        display:block;
+        color: #4d5675;
+        width: 30px;
+        height: 30px;
+    }
 }

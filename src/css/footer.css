@@ -30,3 +30,30 @@
     border-radius: 6px;
     font-size: 16px;
 }
+@media screen and (max-width:1250px) {
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        padding: 40px 20px;
+        height: fit-content;
+    }
+    .logo {
+        margin-bottom: 40px;
+    }
+    .footer ul{
+
+    }
+    .footer li{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .footer li:last-child{
+        margin-bottom: 40px;
+
+    }
+    .menu-list{
+        display: flex;
+        flex-direction: column
+    }
+}

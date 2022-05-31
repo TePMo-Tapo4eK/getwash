@@ -13,7 +13,6 @@
     background-color: #446DF6;
     display: flex;
     align-items: center;
-
     margin: 0 auto;
 }
 .iphoneimg{
@@ -57,4 +56,64 @@
     position: relative;
     left: 75%;
     z-index: 2;
+}
+.photos-iph {
+    display: none;
+}
+@media screen and (max-width: 1250px) {
+    .appinfo{
+        padding: 0 0px;
+        margin: 0;
+        height: fit-content;
+    }
+    .info_blue{
+        flex-direction: column;
+        height: fit-content;
+        border-radius: 0;
+        padding: 40px 20px 0;
+        margin: 0;
+    }
+    .info-text{
+        max-width: 100%;
+        width: 100%;
+    }
+    .info-text h1{
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .info-text p{
+        text-align: center;
+        color: #E9ECF5;
+        flex-direction: column;
+    }
+    .info-apps{
+        height:fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info-apps img{
+        margin: 0 auto;
+        margin: 10px 5px;
+    }
+    .info-photos{
+        display: none;
+    }
+    .photos-iph{
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 470px;
+    }
+    .photos-iph img{
+        position: relative;
+        right: 46px;
+        margin-bottom: -35px;
+    }
 }

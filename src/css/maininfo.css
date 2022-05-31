@@ -1,4 +1,5 @@
 .main-info{
+    width: 100%;
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 135px 0;
@@ -37,4 +38,60 @@
 .main-photo img{
     max-width: 600px;
 }
+.main-leftinfo svg{
+    display: none;
+}
+.photo-iph {
+    display: none;
+}
 
+@media screen and (max-width: 1200px) {
+    .main-info{
+        width: 100%;
+        padding: 100px 20px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../imgs/Transaction\ History\ 10.svg);
+    }
+    .main-leftinfo h1{
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .main-leftinfo h1 img{
+        display: none;
+    }
+    .main-leftinfo svg{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        color: #446DF6;
+        height: 30px;
+        width: 30px;
+    }
+    .main-leftinfo p{
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .main-leftinfo .btn{
+        margin: 0 auto;
+    }
+    .main-photo{
+        display: none;
+    }
+    .photo-iph{
+        display: block;
+        max-height: 290px;
+        overflow: hidden;
+    }
+    .iphoneimg1 {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        left: 12%;
+    }
+}
