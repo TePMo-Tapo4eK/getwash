@@ -6,7 +6,7 @@ import Star from "../imgs/star.png"
 import Value from "../imgs/value.png"
 import Chat from "../imgs/chat.png"
 
-const PartnersInfo = () => {
+const PartnersInfo = ({OpenPartners}) => {
     return(
         <div className="partners" id="partners">
             <div className="partners_title">
@@ -36,7 +36,7 @@ const PartnersInfo = () => {
                 </div>
                 
             </div>
-            <a className="btn">Стать партнером</a>
+            <a className="btn" onClick={OpenPartners}>Стать партнером</a>
         </div>
     )
 }

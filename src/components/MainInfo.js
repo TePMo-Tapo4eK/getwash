@@ -4,7 +4,7 @@ import Iphones from "../imgs/mainpageiph.png"
 import Arrow from "../imgs/arrow.svg"
 import iph12 from '../imgs/iph12.png'
 
-const MainInfo= () => {
+const MainInfo = () => {
     return(
         <div className="main-info">
             <div className="main-leftinfo">
