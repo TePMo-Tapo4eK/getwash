@@ -14,7 +14,7 @@
     display: none;
 }
 
-.burger svg {
+.burger-icon svg {
     display: none;
     width: 0px;
     height: 0px;
@@ -45,7 +45,6 @@
     border-radius: 6px;
     font-size: 16px;
 }
-
 @media screen and (max-width: 1250px) {
     .header {
         display: flex;
@@ -80,7 +79,7 @@
         border-left: 1px solid #E9ECF5;
     }
 
-    .burger {
+    .burger-icon {
         display: block;
         color: #4d5675;
         width: 30px;
