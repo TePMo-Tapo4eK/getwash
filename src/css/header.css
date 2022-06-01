@@ -29,6 +29,9 @@
     margin-right: 50px;
     font-weight: 200;
 }
+.header a {
+    color: black;
+}
 
 .header li:last-child {
     margin-right: 0px;

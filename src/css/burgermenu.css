@@ -11,6 +11,9 @@
     animation: modal1 0.5s ease-out;
     align-items: center;
 }
+.burger a{
+    color: #72727E;
+}
 .burger.active{
     display: flex;
     top:0%;

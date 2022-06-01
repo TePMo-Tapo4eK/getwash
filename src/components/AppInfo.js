@@ -7,7 +7,7 @@ import iph12oc from "../imgs/../imgs/iph12oc.png";
 
 const AppInfo = () => {
   return (
-    <div className="appinfo">
+    <div className="appinfo" id="download">
       <div className="info_blue">
         <div className="info-text">
           <h1>Хватит тратить свое время в очередях</h1>

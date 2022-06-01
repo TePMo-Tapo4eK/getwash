@@ -10,10 +10,10 @@ const Burger = ({state, setState}) => {
         <div className= {state ? "burger active" : "burger"} >
             <div className="burger-modal">
             <ul>
-                <li onClick={closeWindow}>Как использовать</li>
-                <li onClick={closeWindow}>Партнерам</li>
-                <li onClick={closeWindow}>Скачать</li>
-                <li onClick={closeWindow}>Отзывы</li>
+                <li><a href="#faststart" onClick={closeWindow}>Как использовать</a></li>
+                <li><a href="#partners" onClick={closeWindow}>Партнерам</a></li>
+                <li><a href="#download" onClick={closeWindow}>Скачать</a></li>
+                <li><a href="#reviews" onClick={closeWindow}>Отзывы</a></li>
             </ul>
             <div className="burger__btns">
                 <a className="btn active">Получить доступ</a>

@@ -8,7 +8,7 @@ import ValueIcon from "../imgs/value.png"
 
 const StartInfo = () => {
     return(
-        <div className="start-info">
+        <div className="start-info" id="faststart">
             <div className="start-img"><img src={mapImg} alt="map"/></div>
             <div className="start-rightinfo">
                 <h1 className="start-title">Быстрый старт:</h1>
